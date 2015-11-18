@@ -1,0 +1,4 @@
+LOG_TIMESTAMP \d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}
+LOG_LEVEL DEBUG|FATAL|ERROR|WARN|INFO
+SERVER_NAME [[:alnum:]]+[[:punct:]][[:alnum:]]+
+JSON_STR {.*}
